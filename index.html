@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="hello" >Course Code : CSE2067 <br>
+        Course Title : Web Technologies <br></h1>
+
+    <section class="new">
+        <h2 class="prg1">Lab sheet 1 Programs for Module 1:</h2>
+        <h2 class="q">Question:</h2>
+        <pre class="sha" >Create a static web page using HTML, to display your details on the web browser. The web
+            page should be have the following information, in the specified style.
+            1) Your personal details
+             Name (bold),
+             Roll No(underline),
+             Branch(italic)
+             Address(normal) .
+            2) Academic Details ( course – year of completion – result)
+            3) Future Plan</pre>
+        <h2 class="q">Answer:</h2>
+        <pre class="codee">
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Personal Details&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body bgcolor="orange"&gt;
+                        &lt;h1&gt;Personal Details&lt;/h1&gt;
+                        &lt;p&gt;Name: &lt;b&gt; Your Name&lt;/b&gt;&lt;br /&gt;
+                        Roll No:&lt;u&gt; Your Roll No&lt;/u&gt;&lt;br /&gt;
+                        Branch:&lt;i&gt; Your Branch&lt;/i&gt;&lt;br /&gt;
+                        Address: Your Address&lt;/p&gt;
+                        &lt;h2&gt;Academic Details&lt;/h2&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt; 10&lt;sup&gt;th&lt;/sup&gt; – 2019 – First Class&lt;/li&gt;
+                            &lt;li&gt; 12&lt;sup&gt;th&lt;/sup&gt;– 2022 – First Class&lt;/li&gt;
+                            &lt;li&gt;B.Tech(CSE) – 2026 – Distinction&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;hr /&gt;
+                        &lt;h2&gt;Future Plan&lt;/h2&gt;
+                        &lt;p&gt;Your future plans go here.&lt;/p&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section class="neww">
+            <h2 class="prg1">Lab sheet 2 from Module 1:</h2>
+            <h2 class="q">Question:</h2>
+            <pre class="codee" >
+                ABC Book House plans to sell their books online, you are hired as a software developer to
+                create a website for them, Your first task is to create a static web page using HTML. The
+                web page should be having following things
+                1) Top of the page will display the store name and other related informations, address, and
+                contact information .
+                2) Middle of the page will display the book information like sl.no, book name, author name,
+                and price with a table format.
+                3) Bottom of the page will display the contact information
+            </pre>
+            <h2 class="q">Answer:</h2>
+            <pre class="codee" > 
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;ABC Book Shop&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body bgcolor=&quot;yellow&quot;&gt; &lt;center&gt;
+                    &lt;h1&gt; ABC Book Shop &lt;/h1&gt;
+                    &lt;p&gt;****************************&lt;/p&gt;
+                    &lt;h2&gt;Happy Shopping&lt;/h2&gt; &lt;/center&gt;
+                    &lt;hr width=&quot;100%&quot; color=&quot;green&quot; size=&quot;5px&quot; align=&quot;left&quot; /&gt;
+                    &lt;center&gt;
+
+                    &lt;h1&gt;Novels Books &lt;/h1&gt;&lt;br&gt;
+                    &lt;table border=1&gt;
+                    &lt;tr&gt;  
+                    &lt;th width=&quot;50&quot; height=&quot;50&quot;&gt; S.No&lt;/th&gt;
+                    &lt;th width=&quot;350&quot; &gt; Book Name&lt;/th&gt;
+                    &lt;th width=&quot;350&quot; &gt; Auther Name&lt;/th&gt;
+                    &lt;th width=&quot;150&quot; &gt; Price &lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;  
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt; 1&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;Lord of the Rings&lt;/td&gt;
+                    &lt;td height=&quot;40&quot;&gt;J.R.R. Tolkien&lt;/td&gt;
+                    &lt;td height=&quot;40&quot; align=&quot;center&quot;&gt;$10 &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                    &lt;/table&gt;
+                    &lt;hr width=&quot;100%&quot; color=&quot;red&quot; size=&quot;5px&quot; align=&quot;left&quot; /&gt;
+                    &lt;h2&gt; Contact:&lt;/h2&gt;
+                    &lt;h3&gt;Mahatma Gandhi Rd, Haridevpur,
+                    &lt;br&gt;Shanthala Nagar, Ashok Nagar, Bengaluru,
+                    &lt;br&gt;Karnataka 560001&lt;/h3&gt;
+                    &lt;h4&gt;Copyright &copy; 2023 2CSE/SOCSE/PU&lt;/h4&gt;
+                    &lt;/center&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+
+
+
+                    </code>
+                    </pre>
+    </section>
+
+    <section class="bb">
+        <h2 class="prg1">Lab sheet 3 from Module 1:</h2>
+        <h2 class="q">Question:</h2>
+        <pre class="codee">
+            You have been hired as a software developer for Eureka Info Solutions. They are already doing online
+            shoping project for ABC Mobile shop. You are part of a development team and your task is to create
+            a static web page using HTML.
+            The web page should be having following things:
+            1) Top of the page will display the Mobile shop Banner (include image and text) and other related
+            information.
+            2) New offers and notifications are in running text.
+            3) Middle of the page will display the mobile information, Clicking on mobile name/image the
+            page will take you to the next page which will display the mobile image and specification in
+            tabular format.
+            4) Bottom of the page will display the contact information .
+        </pre>
+
+        <pre>
+            <h2 class="q">Answer:</h2>
+            <code class="codee" >
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt; &lt;title&gt;ABC Mobile Shop&lt;/title&gt; &lt;/head&gt;
+                &lt;body bgcolor=&quot;#F0FFFF&quot;&gt; &lt;center&gt;
+                &lt;h1&gt; ABC Mobile Shop &lt;/h1&gt;
+                &lt;p&gt;****************************&lt;/p&gt;
+                &lt;h2&gt;Happy Shopping&lt;/h2&gt; &lt;/center&gt;
+                &lt;font size=&quot;5&quot; color=&quot;Blue&quot;&gt;
+                &lt;marquee style=&quot;border:solid&quot; direction = &quot;right&quot;&gt;*****ABC Mobile shop Online Offers****** 
+                &lt;/marquee&gt;&lt;/font&gt;
+                &lt;center&gt;
+
+                &lt;img src=&quot;image/mobile banner.jpg&quot; alt=&quot;Image not loaded&quot; width=&quot;100%&quot;
+                height=&quot;300&quot;&gt;&lt;br&gt;
+                &lt;table border=&quot;0&quot; &gt;
+                &lt;tr &gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image/
+                OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image
+                /OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image
+                /OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image
+                /OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image
+                /OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;&lt;img src=&quot;image
+                /OnePlus Nord CE 2 Lite 5G.webp&quot; width=&quot;200&quot; height=&quot;300&quot;&gt;&lt;/a&gt;&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr &gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;OnePlus Nord
+                &lt;br&gt;CE 2 Lite 5G&lt;br&gt; M33 5G&lt;/a&gt;&lt;/th&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.samsung.com&quot; target = &quot;_blank&quot;&gt;Redmi 9 Activ
+                &lt;br&gt;(Coral Green, 6GB RAM &lt;br&gt;, 128GB Storage)&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.samsung.com&quot; target = &quot;_blank&quot;&gt;Redmi 9 Activ
+                &lt;br&gt;(Coral Green, 6GB RAM &lt;br&gt;, 128GB Storage)&lt;/a&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in/ &quot; target = &quot;_blank&quot;&gt;OnePlus Nord
+                &lt;br&gt;CE 2 Lite 5G&lt;br&gt; M33 5G&lt;/a&gt;&lt;/th&gt;&lt;/th&gt;
+                &lt;th &gt; &lt;a href = &quot;https://www.samsung.com/ &quot; target = &quot;_blank&quot;&gt;Redmi 9 Activ
+                &lt;br&gt;(Coral Green, 6GB RAM &lt;br&gt;, 128GB Storage)&lt;/a&gt;&lt;/th&gt;
+
+                &lt;th &gt; &lt;a href = &quot;https://www.amazon.in&quot; target = &quot;_blank&quot;&gt;OnePlus Nord
+                &lt;br&gt;CE 2 Lite 5G&lt;br&gt; M33 5G&lt;/a&gt;&lt;/th&gt;&lt;/th&gt;
+                &lt;/tr&gt; &lt;/table&gt;
+                &lt;hr width=&quot;100%&quot; color=&quot;red&quot; size=&quot;5px&quot; align=&quot;left&quot; /&gt;
+                &lt;h2&gt; Contact:&lt;/h2&gt;
+                &lt;h3&gt; ABC Mobile shop&lt;br&gt;Mahatma Gandhi Rd, Haridevpur,
+                &lt;br&gt;Shanthala Nagar, Ashok Nagar, Bengaluru,
+                &lt;br&gt;Karnataka 560001&lt;/h3&gt;
+                &lt;h4&gt; Copyright &copy; 2023 2CSE/SOCSE/PU &lt;/h4&gt;
+                &lt;/center&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2 class="prg1">Lab sheet 4 from Module 1:</h2>
+        <h2 class="q">Question:</h2>
+        <pre class="codee">
+            The Computer Science Engineering department is planning to organize a symposium. Symposium
+            events are to be held with paper and project presentations, quizzes, etc. Students should register the
+            interesting events. Assist the web page design team to create a registration form for the symposium
+            using appropriate HTML tags.
+            The web page should be having following things:
+            1. The top of the page will display the symposium event Banner (including image and text) and
+            other related information.
+            2. The Registration page will get the following details from the participants. Participant Name,
+            Branch, college name, communication Address, E-mail id, mobile no, age, state, Gender,
+            Events (Paper Presentation, Quiz, etc),etc.
+    </pre>
+
+    <pre>
+        <h2 class="q">Answer:</h2>
+        <code class="codee" >
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                &lt;title&gt;registration form&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body bgcolor=&quot;Lightskyblue&quot;&gt;
+                &lt;center&gt;&lt;img src=&quot;image/PU Logo.png&quot;/&gt;
+                &lt;h1 &gt;Symposium Event Registration &lt;/h1&gt;&lt;/center&gt;
+                &lt;hr width=&quot;100%&quot; color=&quot;red&quot; size=&quot;5px&quot; align=&quot;left&quot; /&gt;
+                &lt;h2 ALIGN=&quot;CENTER&quot;&gt;Registration form&lt;/h2&gt;
+                &lt;form action=&quot;Welcome.html&quot; method=&quot;post&quot;&gt;
+                &lt;fieldset&gt;&lt;b&gt;
+                &lt;table border=&quot;0&quot;align=&quot;center&quot; height=&quot;400&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;label for=&quot;name&quot;&gt;Name: &lt;/label&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;input id=&quot;name&quot; maxlength=&quot;50&quot; name=&quot;name&quot; type=&quot;text&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                    &lt;tr&gt;
+                    &lt;td&gt;&lt;label for=&quot;branch&quot;&gt;Branch: &lt;/label&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;input id=&quot;branch&quot; maxlength=&quot;50&quot; name=&quot;branch&quot; type=&quot;text&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;label for=&quot;Institution&quot;&gt;Institution: &lt;/label&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;input id=&quot;Institution&quot; maxlength=&quot;50&quot; name=&quot;Institution&quot; type=&quot;text&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+            
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;label for=&quot;email&quot;&gt;Email_Address:&lt;/label&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;input id=&quot;email&quot; maxlength=&quot;50&quot; name=&quot;email&quot; type=&quot;email&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                &lt;td&gt;&lt;label for=&quot;mobile&quot;&gt;Mobile No:&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input id=&quot;mobile&quot; maxlength=&quot;10&quot; name=&quot;mobile&quot; type=&quot;text&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                &lt;td&gt;&lt;label for=&quot;address&quot;&gt;Address&lt;/label&gt;&lt;/td&gt;
+                &lt;td valign=&quot;middle&quot; align=&quot;center&quot;&gt;&lt;textarea rows=&quot;4&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;td&gt;&lt;input id=&quot;DoB&quot; maxlength=&quot;50&quot; name=&quot;DoB&quot;type=&quot;date&quot; /&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;label for=&quot;gender&quot;&gt;Gender:&lt;/label&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;input id=&quot;gender&quot; maxlength=&quot;50&quot; name=&quot;gender&quot;type=&quot;radio&quot; /&gt;Male
+                    &lt;input id=&quot;gender&quot; maxlength=&quot;50&quot; name=&quot;gender&quot;type=&quot;radio&quot; /&gt;Female&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                &lt;td&gt;&lt;label for=&quot;Events&quot;&gt;Events:&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;Select&gt; &lt;option&gt;Paper Presentation&lt;/option&gt;
+                &lt;option&gt;Project Expo&lt;/option&gt;
+                &lt;option&gt;Code Debugging&lt;/option&gt;
+                &lt;option&gt;Quis&lt;/option&gt;
+                &lt;/Select&gt;  &lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                &lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;
+                &lt;input name=&quot;Submit&quot; type=&quot;Submit&quot; value=&quot;Submit&quot; /&gt;&nbsp;&nbsp;&nbsp;
+                &lt;input name=&quot;reset&quot; type=&quot;reset&quot; value=&quot;Reset&quot; /&gt;
+                &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;/table&gt;&lt;/b&gt;
+                &lt;/fieldset&gt;
+                &lt;/form&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+
+
+
+
+
+
+        </code>
+    </pre>
+
+    </section>
+
+    
+</body>
+</html>

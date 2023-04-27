@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.hello{
+    text-align: center;
+    color: rgb(0, 6, 6);
+}
+
+.prg1{
+    color: green;
+    padding-left: 5px;
+}
+
+.new{
+    background-color: rgb(169, 169, 180);
+    height: 1000px;
+}
+
+.bb{
+    background-color: rgb(169, 169, 180);
+    height: 1800px;
+}
+
+.sha{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.q{
+    padding-left: 20px;
+
+}
+
+.codee{
+    font-size: 20px;
+}
